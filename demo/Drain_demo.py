@@ -255,7 +255,7 @@ class LogParser:
         else:
             pStr += node.digitOrtoken
 
-        print pStr
+        print(pStr)
 
         if node.depth == self.depth:
             return 1
