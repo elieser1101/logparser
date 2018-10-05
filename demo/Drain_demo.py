@@ -16,7 +16,7 @@ regex      = [
 st         = 0.5  # Similarity threshold
 depth      = 4  # Depth of all leaf nodes
 
-parser = Drain.LogParser(log_format, indir=input_dir, outdir=output_dir,  depth=depth, st=st, rex=regex)
+parser = LogParser(log_format, indir=input_dir, outdir=output_dir,  depth=depth, st=st, rex=regex)
 parser.parse(log_file)
 
 """
