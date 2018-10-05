@@ -104,7 +104,7 @@ class LogParser:
                     parentn.childD.append(logClust)
                 break
 
-            #If token not matched in this layer of existing tree. 
+            #If token not matched in this layer of existing tree.
             if token not in parentn.childD:
                 if not self.hasNumbers(token):
                     if '<*>' in parentn.childD:
@@ -125,7 +125,7 @@ class LogParser:
                             parentn = newNode
                         else:
                             parentn = parentn.childD['<*>']
-            
+
                 else:
                     if '<*>' not in parentn.childD:
                         newNode = Node(depth=currentDepth+1, digitOrtoken='<*>')
@@ -151,7 +151,7 @@ class LogParser:
                 numOfPar += 1
                 continue
             if token1 == token2:
-                simTokens += 1 
+                simTokens += 1
 
         retVal = float(simTokens) / len(seq1)
 
@@ -173,7 +173,7 @@ class LogParser:
                 maxClust = logClust
 
         if maxSim >= self.st:
-            retLogClust = maxClust  
+            retLogClust = maxClust
 
         return retLogClust
 
@@ -223,7 +223,7 @@ class LogParser:
 
 
     def printTree(self, node, dep):
-        pStr = ''   
+        pStr = ''
         for i in xrange(dep):
             pStr += '\t'
 
@@ -268,7 +268,7 @@ class LogParser:
             else:
                 newTemplate = self.getTemplate(logmessageL, matchCluster.logTemplate)
                 matchCluster.logIDL.append(logID)
-                if ' '.join(newTemplate) != ' '.join(matchCluster.logTemplate): 
+                if ' '.join(newTemplate) != ' '.join(matchCluster.logTemplate):
                     matchCluster.logTemplate = newTemplate
 
             count += 1
@@ -293,7 +293,7 @@ class LogParser:
         return line
 
     def log_to_dataframe(self, log_file, regex, headers, logformat):
-        """ Function to transform log file to dataframe 
+        """ Function to transform log file to dataframe
         """
         log_messages = []
         linecount = 0
@@ -328,4 +328,3 @@ class LogParser:
                 headers.append(header)
         regex = re.compile('^' + regex + '$')
         return headers, regex
-
