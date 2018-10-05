@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 import sys
 sys.path.append('../')
-from logparser import Drain
+from logparser/logparser/Drain import Drain
 
 input_dir  = '../logs/HDFS/'  # The input directory of log file
 output_dir = 'Drain_result/'  # The output directory of parsing results
@@ -18,4 +18,3 @@ depth      = 4  # Depth of all leaf nodes
 
 parser = Drain.LogParser(log_format, indir=input_dir, outdir=output_dir,  depth=depth, st=st, rex=regex)
 parser.parse(log_file)
-
