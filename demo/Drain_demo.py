@@ -51,7 +51,7 @@ class Node:
 
 
 class LogParser:
-    def __init__(self, log_format, indir='./', outdir='./result/', depth=4, st=0.4, maxChild=100, rex=[]):
+    def LogParser(self, log_format, indir='./', outdir='./result/', depth=4, st=0.4, maxChild=100, rex=[]):
         """
         Attributes
         ----------
