@@ -1,0 +1,34 @@
+Oct  4 14:30:04 200.74.216.1 3290: 009042: Oct  4 14:31:07.046 CCS: %SYS-6-LOGGINGHOST_STARTSTOP: Logging to host 192.168.1.140 port 0 CLI Request Triggered
+Oct  4 14:30:05 200.74.216.1 3291: 009043: Oct  4 14:31:08.046 CCS: %SYS-6-LOGGINGHOST_STARTSTOP: Logging to host 192.168.1.140 port 514 started - CLI initiated
+Oct  4 14:30:39 200.74.216.1 3292: 009044: Oct  4 14:31:41.731 CCS: %SYS-5-CONFIG_I: Configured from console by admbautistay on vty0 (200.74.215.2)
+Oct  4 15:02:04 200.74.216.1 3293: 009052: Oct  4 15:03:07.365 CCS: %SYS-6-TTY_EXPIRE_TIMER: (exec timer expired, tty 1 (200.74.215.2)), user admbautistay
+Oct  4 15:02:04 200.74.216.1 3294: 009053: Oct  4 15:03:07.365 CCS: %SYS-6-LOGOUT: User admbautistay has exited tty session 1(200.74.215.2)
+Oct  4 21:01:43 200.74.216.1 3295: 009069: Oct  4 21:02:46.664 CCS: %SEC_LOGIN-5-LOGIN_SUCCESS: Login Success [user: admcod] [Source: 200.74.215.2] [localport: 22] at 21:02:46 CCS Thu Oct 4 2018
+Oct  4 21:01:46 200.74.216.1 3296: 009070: Oct  4 21:02:49.120 CCS: %SYS-6-LOGOUT: User admcod has exited tty session 1(200.74.215.2)
+Oct  4 22:46:03 200.74.216.1 3297: 009072: Oct  4 22:47:06.087 CCS: %DUAL-5-NBRCHANGE: EIGRP-IPv4 2016: Neighbor 172.30.1.2 (GigabitEthernet3/6.3010) is down: holding time expired
+Oct  4 22:46:12 200.74.216.1 3298: 009073: Oct  4 22:47:15.611 CCS: %DUAL-5-NBRCHANGE: EIGRP-IPv4 2016: Neighbor 172.30.1.2 (GigabitEthernet3/6.3010) is up: new adjacency
+Oct  4 22:51:51 200.74.216.1 3299: 009074: Oct  4 22:52:54.144 CCS: %DUAL-5-NBRCHANGE: EIGRP-IPv4 2016: Neighbor 172.30.1.2 (GigabitEthernet3/6.3010) is down: holding time expired
+Oct  4 22:51:58 200.74.216.1 3300: 009075: Oct  4 22:53:01.540 CCS: %DUAL-5-NBRCHANGE: EIGRP-IPv4 2016: Neighbor 172.30.1.2 (GigabitEthernet3/6.3010) is up: new adjacency
+Oct  5 11:46:06 200.74.216.1 3301: 009083: Oct  5 11:47:09.493 CCS: %SEC_LOGIN-5-LOGIN_SUCCESS: Login Success [user: admer] [Source: 200.74.215.2] [localport: 22] at 11:47:09 CCS Fri Oct 5 2018
+Oct  5 11:47:41 200.74.216.1 3302: 009084: Oct  5 11:48:45.226 CCS: %SYS-5-CONFIG_I: Configured from console by admer on vty0 (200.74.215.2)
+Oct  5 12:36:24 200.74.216.1 3303: 009086: Oct  5 12:37:28.242 CCS: %SYS-6-TTY_EXPIRE_TIMER: (exec timer expired, tty 1 (200.74.215.2)), user admer
+Oct  5 12:36:24 200.74.216.1 3304: 009087: Oct  5 12:37:28.242 CCS: %SYS-6-LOGOUT: User admer has exited tty session 1(200.74.215.2)
+Oct  3 15:44:56 200.74.216.13 307: 000646: Oct  3 15:45:58.187 CCS: %SEC_LOGIN-5-LOGIN_SUCCESS: Login Success [user: admer] [Source: 200.74.215.2] [localport: 22] at 15:45:58 CCS Wed Oct 3 2018
+Oct  3 16:15:00 200.74.216.13 308: 000647: Oct  3 16:16:01.919 CCS: %SYS-6-TTY_EXPIRE_TIMER: (exec timer expired, tty 1 (200.74.215.2)), user admer
+Oct  3 16:15:00 200.74.216.13 309: 000648: Oct  3 16:16:01.919 CCS: %SYS-6-LOGOUT: User admer has exited tty session 1(200.74.215.2)
+Oct  3 21:02:00 200.74.216.13 310: 000656: Oct  3 21:03:02.610 CCS: %SEC_LOGIN-5-LOGIN_SUCCESS: Login Success [user: admcod] [Source: 200.74.215.2] [localport: 22] at 21:03:02 CCS Wed Oct 3 2018
+Oct  3 21:02:03 200.74.216.13 311: 000657: Oct  3 21:03:05.102 CCS: %SYS-6-LOGOUT: User admcod has exited tty session 1(200.74.215.2)
+Oct  4 10:34:22 200.74.216.13 312: 000680: Oct  4 10:35:25.245 CCS: %SEC_LOGIN-5-LOGIN_SUCCESS: Login Success [user: admer] [Source: 200.74.215.2] [localport: 22] at 10:35:25 CCS Thu Oct 4 2018
+Oct  4 11:20:42 200.74.216.13 313: 000683: Oct  4 11:21:44.962 CCS: %SYS-6-TTY_EXPIRE_TIMER: (exec timer expired, tty 1 (200.74.215.2)), user admer
+Oct  4 11:20:42 200.74.216.13 314: 000684: Oct  4 11:21:44.962 CCS: %SYS-6-LOGOUT: User admer has exited tty session 1(200.74.215.2)
+Oct  4 12:51:24 200.74.216.13 315: 000687: Oct  4 12:52:26.817 CCS: %SEC_LOGIN-5-LOGIN_SUCCESS: Login Success [user: admbautistay] [Source: 200.74.215.2] [localport: 22] at 12:52:26 CCS Thu Oct 4 2018
+Oct  4 12:51:56 200.74.216.13 316: 000688: Oct  4 12:52:59.094 CCS: %SYS-6-LOGOUT: User admbautistay has exited tty session 1(200.74.215.2)
+Oct  4 21:01:52 200.74.216.13 317: 000721: Oct  4 21:02:55.754 CCS: %SEC_LOGIN-5-LOGIN_SUCCESS: Login Success [user: admcod] [Source: 200.74.215.2] [localport: 22] at 21:02:55 CCS Thu Oct 4 2018
+Oct  4 21:01:55 200.74.216.13 318: 000722: Oct  4 21:02:58.242 CCS: %SYS-6-LOGOUT: User admcod has exited tty session 1(200.74.215.2)
+Oct  4 22:26:30 200.74.216.13 319: 000726: Oct  4 22:27:33.076 CCS: %BGP-6-BIGCHUNK: Big chunk pool request (348) for community. Replenishing with malloc
+Oct  5 10:23:39 200.74.216.13 320: 000736: Oct  5 10:24:42.812 CCS: %DUAL-5-NBRCHANGE: EIGRP-IPv4 2016: Neighbor 172.30.2.1 (GigabitEthernet3/8.3020) is down: holding time expired
+Oct  5 10:23:48 200.74.216.13 321: 000737: Oct  5 10:24:52.092 CCS: %DUAL-5-NBRCHANGE: EIGRP-IPv4 2016: Neighbor 172.30.2.1 (GigabitEthernet3/8.3020) is up: new adjacency
+Oct  5 11:48:11 200.74.216.13 322: 000739: Oct  5 11:49:15.222 CCS: %SEC_LOGIN-5-LOGIN_SUCCESS: Login Success [user: admer] [Source: 200.74.215.2] [localport: 22] at 11:49:15 CCS Fri Oct 5 2018
+Oct  5 11:48:49 200.74.216.13 323: 000740: Oct  5 11:49:52.687 CCS: %SYS-5-CONFIG_I: Configured from console by admer on vty0 (200.74.215.2)
+Oct  5 12:36:13 200.74.216.13 325: 000743: Oct  5 12:37:16.510 CCS: %SYS-6-LOGOUT: User admer has exited tty session 1(200.74.215.2)
+Oct  5 12:36:13 200.74.216.13 324: 000742: Oct  5 12:37:16.510 CCS: %SYS-6-TTY_EXPIRE_TIMER: (exec timer expired, tty 1 (200.74.215.2)), user admer
