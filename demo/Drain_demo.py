@@ -338,7 +338,7 @@ class LogParser:
 input_dir  = '../logs/Test/'  # The input directory of log file
 output_dir = 'Drain_result/'  # The output directory of parsing results
 log_file   = 'LogTest.log'  # The input log file name
-log_format = '<IMonth> <IDay> <ITime> <Hostname> <STag>: <NI>: <FDate> <FTime> <City>: <Content>' # Linux log format
+log_format = '<IMonth> <IDay> <ITime> <Hostname> <STag>: <Content>' # Linux log format
 # log_format = '<Date> <Time> <Pid> <Level> <Component>: <Content>'  # HDFS log format
 # Regular expression list for optional preprocessing (default: [])
 regex      = [
