@@ -146,7 +146,7 @@ import numpy as np
 from sklearn.metrics import accuracy_score
 from sklearn.metrics.pairwise import cosine_similarity
 
-class LenmaTemplate(template.Template):
+class LenmaTemplate(Template):
     def __init__(self, index=None, words=None, logid=None, json=None):
         if json is not None:
             # restore from the jsonized data.
