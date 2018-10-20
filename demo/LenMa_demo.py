@@ -129,7 +129,7 @@ class TemplateManager(object):
         Returns:
           template: the appended template.
         """
-        assert(template.index == len(self.templates))
+        assert(index == len(self.templates))
         self.templates.append(template)
         return template
 
@@ -282,7 +282,7 @@ class LenmaTemplate(Template):
     def get_logids(self):
         return self._logid
 
-class LenmaTemplateManager(template.TemplateManager):
+class LenmaTemplateManager(TemplateManager):
     def __init__(self,
                  threshold=0.9,
                  predefined_templates=None):
@@ -303,9 +303,9 @@ class LenmaTemplateManager(template.TemplateManager):
 
         candidates = []
         for (index, template) in enumerate(self.templates):
-            if nwords != template.nwords:
+            if nwords != nwords:
                 continue
-            score = template.get_similarity_score(words)
+            score = get_similarity_score(words)
             if score < self._threshold:
                 continue
             candidates.append((index, score))
@@ -373,7 +373,7 @@ class LogParser(object):
         self.wordseqs = []
         self.df_log = pd.DataFrame()
         self.wordpos_count = defaultdict(int)
-        self.templ_mgr = lenma_template.LenmaTemplateManager(threshold=threshold, predefined_templates=predefined_templates)
+        self.templ_mgr = lenma_LenmaTemplateManager(threshold=threshold, predefined_templates=predefined_templates)
         self.logname = None
 
     def parse(self, logname):
